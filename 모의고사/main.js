@@ -1,4 +1,4 @@
-let answer = [1,2,3,4,5];
+let answers = [1,2,3,4,5];
 
 function solution(answers) {
   let answer = [];
@@ -10,6 +10,8 @@ function solution(answers) {
   let a2c = answers.filter((a, i)=> a === a2[i % a2.length]).length;
   let a3c = answers.filter((a, i)=> a === a3[i % a3.length]).length;
   let max = Math.max(a1c, a2c, a3c);
+  console.log(a1c);
+  console.log(a2c);
 
   if (a1c === max) {answer.push(1)};
   if (a2c === max) {answer.push(2)};
