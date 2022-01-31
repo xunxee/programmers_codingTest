@@ -11,3 +11,5 @@ function solution(n, lost, reserve) {
 }
 
 solution(n, lost, reserve );
+
+//test중
